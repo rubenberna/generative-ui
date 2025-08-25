@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { useChat } from "@ai-sdk/react";
-import { MessagesBoard } from "./components/messagesBoard";
-import { useScrollToBottom } from "./hooks/useScrollToBottom";
-import { NewMessageForm } from "./components/newMessageForm";
+import { MessagesBoard } from "../components/messagesBoard";
+import { useScrollToBottom } from "../hooks/useScrollToBottom";
+import { NewMessageForm } from "../components/newMessageForm";
 
 export default function Page() {
   const [input, setInput] = useState("");
