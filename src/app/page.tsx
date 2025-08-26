@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { useChat } from "@ai-sdk/react";
-import { MessagesBoard } from "../components/messagesBoard";
-import { useScrollToBottom } from "../hooks/useScrollToBottom";
-import { NewMessageForm } from "../components/newMessageForm";
+import { useState } from 'react';
+import { useChat } from '@ai-sdk/react';
+import { MessagesBoard } from '../components/messagesBoard';
+import { useScrollToBottom } from '../hooks/useScrollToBottom';
+import { NewMessageForm } from '../components/newMessageForm';
 
 export default function Page() {
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState('');
   const [messagesContainerRef, messagesEndRef] =
     useScrollToBottom<HTMLDivElement>();
 
@@ -16,7 +16,7 @@ export default function Page() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     sendMessage({ text: input });
-    setInput("");
+    setInput('');
   };
 
   const changeInput = (e: React.ChangeEvent<HTMLInputElement>) => {

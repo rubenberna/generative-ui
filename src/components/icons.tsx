@@ -5,7 +5,7 @@ export const BotIcon = () => {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width="16"
-      style={{color: "currentcolor"}}
+      style={{ color: 'currentcolor' }}
     >
       <path
         fillRule="evenodd"
@@ -25,7 +25,7 @@ export const UserIcon = () => {
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width="16"
-      style={{color: "currentcolor"}}
+      style={{ color: 'currentcolor' }}
     >
       <path
         fillRule="evenodd"
@@ -37,14 +37,14 @@ export const UserIcon = () => {
   );
 };
 
-export const HomeIcon = ({size = 16}: { size: number }) => {
+export const HomeIcon = ({ size = 16 }: { size: number }) => {
   return (
     <svg
       height={size}
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width={size}
-      style={{color: "currentcolor"}}
+      style={{ color: 'currentcolor' }}
     >
       <path
         fillRule="evenodd"
@@ -56,14 +56,14 @@ export const HomeIcon = ({size = 16}: { size: number }) => {
   );
 };
 
-export const SendIcon = ({size = 16}: { size?: number }) => {
+export const SendIcon = ({ size = 16 }: { size?: number }) => {
   return (
     <svg
       height={size}
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width={size}
-      style={{color: "currentcolor"}}
+      style={{ color: 'currentcolor' }}
     >
       <path
         fillRule="evenodd"
@@ -73,16 +73,16 @@ export const SendIcon = ({size = 16}: { size?: number }) => {
       ></path>
     </svg>
   );
-}
+};
 
-export const MenuIcon = ({size = 16}: { size?: number }) => {
+export const MenuIcon = ({ size = 16 }: { size?: number }) => {
   return (
     <svg
       height={size}
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width={size}
-      style={{color: "currentcolor"}}
+      style={{ color: 'currentcolor' }}
     >
       <path
         fillRule="evenodd"
@@ -94,14 +94,14 @@ export const MenuIcon = ({size = 16}: { size?: number }) => {
   );
 };
 
-export const InfoIcon = ({size = 16}: { size?: number }) => {
+export const InfoIcon = ({ size = 16 }: { size?: number }) => {
   return (
     <svg
       height={size}
       strokeLinejoin="round"
       viewBox="0 0 16 16"
       width={size}
-      style={{color: "currentcolor"}}
+      style={{ color: 'currentcolor' }}
     >
       <path
         fillRule="evenodd"
@@ -121,7 +121,19 @@ export const PdfIcon = () => (
     fill="#e3e3e3"
     viewBox="0 -960 960 960"
   >
-    <path
-      d="M360-460h40v-80h40q17 0 28.5-11.5T480-580v-40q0-17-11.5-28.5T440-660h-80v200Zm40-120v-40h40v40h-40Zm120 120h80q17 0 28.5-11.5T640-500v-120q0-17-11.5-28.5T600-660h-80v200Zm40-40v-120h40v120h-40Zm120 40h40v-80h40v-40h-40v-40h40v-40h-80v200ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z"/>
+    <path d="M360-460h40v-80h40q17 0 28.5-11.5T480-580v-40q0-17-11.5-28.5T440-660h-80v200Zm40-120v-40h40v40h-40Zm120 120h80q17 0 28.5-11.5T640-500v-120q0-17-11.5-28.5T600-660h-80v200Zm40-40v-120h40v120h-40Zm120 40h40v-80h40v-40h-40v-40h40v-40h-80v200ZM320-240q-33 0-56.5-23.5T240-320v-480q0-33 23.5-56.5T320-880h480q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H320Zm0-80h480v-480H320v480ZM160-80q-33 0-56.5-23.5T80-160v-560h80v560h560v80H160Zm160-720v480-480Z" />
   </svg>
-)
+);
+
+export const StopIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="-5 -10 110 135"
+    width={40}
+    height={40}
+    fill="white"
+  >
+    <path d="M50 86.375c20.043 0 36.375-16.332 36.375-36.375S70.043 13.625 50 13.625 13.625 29.957 13.625 50 29.957 86.375 50 86.375zm0-70.668c18.918 0 34.293 15.375 34.293 34.293S68.918 84.293 50 84.293 15.707 68.918 15.707 50 31.082 15.707 50 15.707z" />
+    <path d="M40.543 64.082h18.918a4.66 4.66 0 0 0 4.668-4.668l-.004-18.871a4.66 4.66 0 0 0-4.668-4.668H40.543a4.66 4.66 0 0 0-4.668 4.668v18.918c.043 2.54 2.125 4.621 4.668 4.621zM38 40.543a2.595 2.595 0 0 1 2.582-2.582H59.5a2.595 2.595 0 0 1 2.582 2.582v18.918a2.595 2.595 0 0 1-2.582 2.582H40.543a2.595 2.595 0 0 1-2.582-2.582l-.004-18.918z" />
+  </svg>
+);

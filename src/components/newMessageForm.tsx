@@ -1,5 +1,5 @@
-import { memo } from "react";
-import { SendIcon } from "./icons";
+import { memo } from 'react';
+import { SendIcon } from './icons';
 
 interface IProps {
   input: string;
