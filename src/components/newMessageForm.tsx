@@ -17,7 +17,7 @@ export const NewMessageForm = memo((props: IProps) => {
     >
       <input
         className="bg-zinc-100 rounded-md px-2 py-1.5 flex-1 outline-none dark:bg-zinc-700 text-zinc-800 dark:text-zinc-300"
-        placeholder="Send a message..."
+        placeholder="Ask about the weather..."
         autoFocus
         value={input}
         onChange={changeInput}

@@ -6,7 +6,7 @@ import { SendIcon } from '@/components/icons';
 export default function Completion() {
   const { input, completion, handleInputChange, handleSubmit, isLoading } =
     useCompletion({
-      api: '/api/completion',
+      api: '/completion/api',
     });
 
   return (
